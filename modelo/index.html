@@ -12,14 +12,20 @@
 <body>
 
     <section class="container">
+
         <div class="headerForm">
             <h1>Cadastro DEV</h1>
-            <h3><b>Quem pode se tornar um DEV?</b></h3><br>
+            <h3>Quem pode se tornar um DEV?</h3><br>
             <p> Qualquer pessoa com um pulso.
                 Todos que quiserem podem se tornar DEVs e todas as
                 pessoas deveriam ser bem vindas, inclusive, recentemente
                 lançaram o manifesto ao apoio à diversidade na tecnologia.
             </p>
+        </div>
+
+        <div class="lineSep">
+
+
         </div>
 
         <form action="" class="formContainer">
@@ -34,9 +40,15 @@
             <input type="text" id="input-teste-3"><br>
 
             <label for="input-teste-4" class="labelInput">Área dev</label><br>
-            <input type="text" id="input-teste-4"><br>
+            <select id="areaDev">
+                <option value="" selected disabled></option>
+                <option>Front-End</option>
+                <option>Back-End</option>
+                <option>Mobile Developer</option>
+                <option>Full-Stecker</option>
+            </select>
+            <button>ENVIAR</button>
 
-            <button>Enviar</button>
         </form>
     </section>
 
