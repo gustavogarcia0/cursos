@@ -6,13 +6,35 @@ body{
 .container{
     background-color:#837139;
     padding:30px;
-    width:40%;
+    width:60%;
     margin: 0 auto;
 }
 
-.headerForm{
+.headerForm h1{
     text-align:center;
     margin-bottom:40px;
+}
+
+.table{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+        margin-bottom:30px;
+}
+
+.tableimc{
+    margin-right:100px;
+}
+
+.table p{
+    text-align:center;
+    font-size:1.1em;
+}
+
+.table h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size:1.1em;
 }
 
 .formContainer{
@@ -20,7 +42,7 @@ body{
     flex-direction: column;
 }
 
-.formContainer button{
+.btnsubmit{
     font-weight: bold;
     width:30%;
     height:45px;
@@ -43,6 +65,7 @@ body{
 
 .formContainer label{
     font-size:1.12rem;
+    margin-bottom:-10px;
 }
 
 .lineSep{
@@ -57,4 +80,11 @@ body{
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom:30px;
+}
+
+.usersIMC p{
+    background-color:#584e30;
+    padding:5px;
+    text-align: justify;
+    border:2px solid white;
 }
