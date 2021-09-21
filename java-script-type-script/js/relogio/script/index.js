@@ -5,7 +5,6 @@ function changeH3(){
     let horas = time.getHours();
     let min = time.getMinutes();
     let sec = time.getSeconds();
-    let diaSemana = time.getDate()
     
 
     let dataAtual = "Hoje é dia" + ": " + dia + "" + " " + " "
@@ -14,4 +13,4 @@ function changeH3(){
     document.querySelector('.hora').innerHTML = dataAtual + horaAtual;
 }
 
-changeH3();
+changeH3(); 
