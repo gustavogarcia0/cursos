@@ -1,0 +1,86 @@
+body{
+    background-color:#166381;
+    color:white;
+}
+
+.container{
+    background-color:#0e4155;
+    padding:30px;
+    width:40%;
+    margin: 0 auto;
+}
+
+.headerForm{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.formContainer{
+    display:flex;
+    flex-direction: column;
+}
+
+.formContainer .enviar{
+    margin-left:15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width:130px;
+    height:36px;
+    border:2px solid #173e58;
+    background-color:#175781;
+}
+.formContainer .enviar:hover{
+    background-color:#2987c5;
+    color:white;
+    font-weight:normal;
+}
+
+.formContainer input{
+    width:340px;
+    border:1px solid black;
+    height:30px;
+    margin-bottom:15px;
+}
+
+
+.formContainer label{
+    font-size:1.12rem;
+}
+
+.lineSep{
+    width:100%;
+    height:2px;
+    background-color:white;
+    margin-bottom:30px;
+}
+
+.formContainer select{
+    height:45px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom:30px;
+}
+
+.inputContent{
+    display:flex;
+}
+
+.removerTarefa{
+    background-color:#166381;
+    border:#0e4155 1px solid;
+    margin-left:15px;
+    color:white;
+}
+
+.removerTarefa:hover{
+    background-color:#0e4155;
+    border: 1px solid white;
+}
+
+.tarefa p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
