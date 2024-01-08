@@ -1,6 +1,6 @@
-### Aulas de JavaScript e TypeScript
+# Aulas de JavaScript e TypeScript
 
-# Este repositório contém arquivos e pastas relacionados às aulas específicas de JavaScript e TypeScript. Cada pasta ou arquivo reflete um tópico específico abordado durante as aulas.
+### Este repositório contém arquivos e pastas relacionados às aulas específicas de JavaScript e TypeScript. Cada pasta ou arquivo reflete um tópico específico abordado durante as aulas.
 
 ## Estrutura do Diretório
 
